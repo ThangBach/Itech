@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shoppingwallpaper">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#80000000"
+        android:paddingLeft="180dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bag_50_1"
+            android:layout_gravity="right|top"
+            android:paddingTop="35dp"
+            android:paddingRight="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:textColor="#ECF0F1"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:text="Thế giới mua sắm trong tầm tay bạn"
+            android:id="@+id/textView2"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/money_50_1"
+            android:layout_gravity="right|top"
+            android:paddingTop="35dp"
+            android:paddingRight="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:textColor="#ECF0F1"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:text="Giao hàng tận nơi"
+            android:id="@+id/textView" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shield_50_1"
+            android:layout_gravity="right|top"
+            android:paddingTop="35dp"
+            android:paddingRight="50dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:textColor="#ECF0F1"
+            android:text="Bảo vệ người mua hàng"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"
+            android:layout_gravity="bottom|center"
+            android:id="@+id/imageView" />
+    </LinearLayout>
+
+</FrameLayout>

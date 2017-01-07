@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/bglogo</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+    </style>
+
+    <style name="capfalse" parent="TextAppearance.AppCompat">
+        <item name="textAllCaps">false</item>
+    </style>
+    <style name="menuItemColor" parent="AppTheme">
+        <item name="android:textColorPrimary">@color/bgtoolbar</item>
+    </style>
+</resources>
